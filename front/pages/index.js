@@ -95,12 +95,12 @@ export default function Home() {
             <Grid item>
               <Box>
                 <TextField
-                  id="todolist-id"
+                  id="todolist-input-todo-id"
                   label="To Do"
                   onChange={(e) => { setTitle(e.target.value) }}
                 />
                 <TextField
-                  id="todolist-id"
+                  id="todolist-input-description-id"
                   label="Description"
                   onChange={(e) => { setDesc(e.target.value) }}
                   sx={{ mx: 2 }}
